@@ -1,5 +1,5 @@
 /*--------------
-    COLORS 
+    MS COLORS 
  ---------------*/
 
  .ms-bg-darkblue {
@@ -9,3 +9,12 @@
 .ms-bg-green {
     background-color: #1abc9c;
 }
+
+/*--------------
+    MS BUTTON 
+ ---------------*/
+ .ms-button-1{
+    border: 1px solid white;
+    padding: 8px;
+    background-color: transparent;
+ }
