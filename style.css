@@ -30,3 +30,21 @@
  }
 
  
+ /*--------------
+  CIRCLE CONTAINER 
+ ---------------*/
+
+ .ms-circle-container {
+    width: 45px; /* Imposta le dimensioni del quadrato immaginario */
+    height: 45px;
+    overflow: hidden; /* Nasconde tutto ciò che esce dai bordi */
+    border-radius: 50%; /* Rende il contenitore rotondo */
+    border: 1px solid white;
+ }
+
+ .ms-circle-content {
+    /* Aggiungi stili all'elemento interno (immagine o icona) */
+    width: 100%;
+    height: 100%;
+    background-color:inherit; /* Esempio di sfondo colorato */
+ }
