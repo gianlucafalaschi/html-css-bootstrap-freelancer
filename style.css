@@ -54,15 +54,25 @@
  LINK 
  ---------------*/
 
+
 header a {
    color: white;
 }
 
-header a:hover {
+header a:hover  {
+   background-color: #1abc9c;
    color: #1abc9c;
  }
 
  
+#location .ms-link {
+   color: #1abc9c;
+}
+
+#location .ms-link:hover {
+   color: white;
+}
+
  /*--------------
       HEADER
  ---------------*/
