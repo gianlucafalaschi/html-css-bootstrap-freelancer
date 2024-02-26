@@ -97,13 +97,40 @@ header a:hover {
 /*--------------
       PORTFOLIO
  ---------------*/
-.container-image {
+.ms-container-image {
    overflow: hidden;
    border-radius: 10px;
+   position: relative;
 }
 
+.ms-container-image img {
+   display: block;
+}
 
+.ms-container-image-hover {
+   display: flex;
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   bottom: 0;
+   right: 0;
+   background: rgba(0, 0, 0, 0.5);
+   align-items: center;
+   justify-content: center;
+   opacity: 0;
+   transition: 0.4s opacity;
+}
 
+.ms-container-image-hover i {
+   /*     height: 60px; */
+       color: white;
+       font-size: 40px;
+    }
+
+.ms-container-image:hover .ms-container-image-hover {
+   opacity: 1;
+}
 
   /*--------------
       CONTACT
