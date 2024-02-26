@@ -61,3 +61,13 @@ header a {
 header a:hover {
    color: #1abc9c;
  }
+
+ 
+ /*--------------
+      HEADER
+ ---------------*/
+
+.avatar-box {
+   width: 230px;
+   height:auto
+}
