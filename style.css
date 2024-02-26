@@ -98,8 +98,14 @@ header a:hover {
       CONTACT
  ---------------*/
 
- .ms-contact-form input {
+ .ms-contact-form input  {
    border: none;
-   border-bottom: 1px solid;
+   border-bottom: 1px solid #CCCCCC;
    border-radius:0 ;
+ }
+
+ .ms-contact-form textarea {
+   border: none;
+   border-bottom: 1px solid #CCCCCC;
+   border-radius:0;
  }
