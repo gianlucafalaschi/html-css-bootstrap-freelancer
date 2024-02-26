@@ -93,3 +93,13 @@ header a:hover {
    font-size: 31px;
    color: black;
  }
+
+  /*--------------
+      CONTACT
+ ---------------*/
+
+ .ms-contact-form input {
+   border: none;
+   border-bottom: 1px solid;
+   border-radius:0 ;
+ }
