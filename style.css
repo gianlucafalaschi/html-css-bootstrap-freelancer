@@ -94,6 +94,17 @@ header a:hover {
    color: black;
  }
 
+/*--------------
+      PORTFOLIO
+ ---------------*/
+.container-image {
+   overflow: hidden;
+   border-radius: 10px;
+}
+
+
+
+
   /*--------------
       CONTACT
  ---------------*/
