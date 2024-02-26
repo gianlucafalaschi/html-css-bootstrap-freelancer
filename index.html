@@ -103,20 +103,44 @@
        <!-- CONTACT -->
        <section id="contact" class="py-4 py-md-5">
         <div class="container px-5">
+            
             <div class="text-center mb-3">
                 <h2>CONTACT ME</h2>
                 <div class="stars-lines d-flex justify-content-center align-items-center">
-                    <div class="ms-line"></div>
-                    <div class="ms-star"><i class="ms-star-icon fa-solid fa-star"></i></div>
+                    <div class="ms-line"></div>                        <div class="ms-star"><i class="ms-star-icon fa-solid fa-star"></i></div>
                     <div class="ms-line"></div>
                 </div>
             </div>
+            
+            <div class="row gy-3 justify-content-center">
+                <div class="col-8">
 
-            <div class="text-start">
-                <div class="btn ms-button-2 text-white ms-2">Send</div>
-            </div>
+                    <form class="ms-contact-form fs-5">
+                        <div class="form-floating mb-2">
+                            <input type="text" class="form-control" id="name"  placeholder="Name">
+                            <label for="name" class="form-label">Name</label>
+                        </div>
+                        
+                        <div class="form-floating mb-2">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email Address">
+                            <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                        </div>
+                        
+                        <div class="form-floating mb-2">
+                            <input type="tel" class="form-control" id="phone" placeholder="Phone Number">
+                            <label for="phone" class="form-label">Phone Number</label>
+                        </div>
+                        
+                        <div class="form-floating mb-2">
+                            <textarea class="form-control" placeholder="Message" id="floatingTextarea" style="height: 180px"></textarea>
+                            <label for="floatingTextarea">Message</label>
+                        </div>
+                        
+                        <button type="submit" class="btn btn ms-button-2 mt-2 text-white">Send</button>
+                    </form>
+                </div>
+            </div>    
         </div>
-    
        </section>
        <!--/ CONTACT -->
 
