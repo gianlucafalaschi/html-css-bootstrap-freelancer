@@ -48,3 +48,16 @@
     height: 100%;
     background-color:inherit; /* Esempio di sfondo colorato */
  }
+
+
+ /*--------------
+ LINK 
+ ---------------*/
+
+header a {
+   color: white;
+}
+
+header a:hover {
+   color: #1abc9c;
+ }
