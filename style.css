@@ -71,3 +71,19 @@ header a:hover {
    width: 230px;
    height:auto
 }
+
+
+ /*--------------
+      START
+ ---------------*/
+
+ .line {
+   height: 3px;
+   width: 14%;
+   background-color: white;
+ }
+
+ .star {
+   padding: 0 2% ;
+   font-size: 31px;
+ }
