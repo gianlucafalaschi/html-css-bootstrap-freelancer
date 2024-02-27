@@ -29,6 +29,9 @@
     background-color:#1abc9c ;
  }
 
+ .ms-button-1:hover, .ms-button-2:hover {
+   background-color: #2C3E50 ;
+ }
  
  /*--------------
   CIRCLE CONTAINER 
